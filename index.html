@@ -38,6 +38,20 @@
             padding: 20px 0;
         }
 
+        /* NOVO: Estilos do Logo do Aplicativo */
+        .app-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .app-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 25px; /* Deixa a logo com cantos arredondados iguais aos de apps iOS */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            background-color: #FFF; /* Fundo branco caso a logo seja transparente */
+        }
+
         h1, h2, h3 {
             color: var(--heading-color);
             margin-top: 30px;
@@ -47,6 +61,7 @@
             font-size: 28px;
             border-bottom: 2px solid var(--accent-color);
             padding-bottom: 10px;
+            text-align: center;
         }
 
         p, li {
@@ -63,6 +78,7 @@
             color: #6c757d;
             margin-bottom: 30px;
             display: block;
+            text-align: center;
         }
 
         footer {
@@ -86,10 +102,16 @@
 <body>
 
     <div class="container">
+        
+        <!-- NOVO: Logo do Aplicativo -->
+        <div class="app-header">
+            <img src="logo.png" alt="Logo Meu Rachão Voleibol" class="app-logo">
+        </div>
+
         <h1>Política de Privacidade</h1>
         <span class="update-date">Última atualização: 10 de Setembro de 2026</span>
 
-        <p>A <strong>SOLUAXIS TECNOLOGIA LTDA</strong>, desenvolvedora do aplicativo <strong>Meu Rachão - Voleibol</strong>, tem o compromisso de proteger a privacidade e os dados pessoais de seus usuários. Esta Política de Privacidade explica como coletamos, usamos, compartilhamos e protegemos suas informações quando você utiliza nosso aplicativo.</p>
+        <p>A <strong>SOLUAXIS TECNOLOGIA</strong>, desenvolvedora do aplicativo <strong>Meu Rachão - Voleibol</strong>, tem o compromisso de proteger a privacidade e os dados pessoais de seus usuários. Esta Política de Privacidade explica como coletamos, usamos, compartilhamos e protegemos suas informações quando você utiliza nosso aplicativo.</p>
 
         <h2>1. Informações que Coletamos</h2>
         <p>Para o funcionamento adequado do aplicativo e para a gestão do seu time de voleibol, coletamos as seguintes informações fornecidas voluntariamente por você (ou pelo administrador do seu time):</p>
@@ -137,12 +159,12 @@
         <h2>6. Contato</h2>
         <p>Se você tiver dúvidas, sugestões ou solicitações relacionadas a esta Política de Privacidade ou ao uso dos seus dados no aplicativo, entre em contato conosco:</p>
         <ul>
-            <li><strong>Desenvolvedor:</strong> SOLUAXIS TECNOLOGIA</li>
-            <li><strong>Email:</strong> contato@soluaxis.com.br <em>(Altere este e-mail para o e-mail real de suporte da sua empresa)</em></li>
+            <li><strong>Desenvolvedor:</strong> SOLUAXIS TECNOLOGIA LTDA</li>
+            <li><strong>Email:</strong> soluaxis@gmail.com</li>
         </ul>
 
         <footer>
-            <p>&copy; 2026 SOLUAXIS TECNOLOGIA. Todos os direitos reservados.</p>
+            <p>&copy; 2026 SOLUAXIS TECNOLOGIA LTDA. Todos os direitos reservados.</p>
         </footer>
     </div>
 
